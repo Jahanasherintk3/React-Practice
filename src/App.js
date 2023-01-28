@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Navbar/NavbarComponet';
+//import Data from './Component/Data';
+//import Functional from './Component/Functional';
+import Class from './Component/Class';
+import NavbarProp from './Navbar/NavbarProp';
+import Methodsprop from './Component/Methodsprop';
+import CompAf from './Props/CompAf';
+import CompAc from './Props/CompAc';
+import ClassA from './Props/ClassA';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavbarProp/>
+      ,<ClassA/>
     </div>
   );
 }
